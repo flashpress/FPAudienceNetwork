@@ -1,9 +1,15 @@
 # FPAudienceNetwork
 FPAudienceNetwork - Advertising Facebook Audience Network in AIR application for iOS &amp; Android. 
 
+# ExtensionID
+```xml
+<extensions>
+	<extensionID>ru.flashpress.AudienceNetwork</extensionID>
+</extensions>
+```
 
 ## Show Facebook Banner ad
-```
+```ActionScript
 import ru.flashpress.fban.FPAudienceNetwork;
 import ru.flashpress.fban.FPBannerAd;
 import ru.flashpress.fban.constants.FPBannerAlign;
@@ -35,7 +41,7 @@ bannerAd.show(FPBannerAlign.TOP);
 
 
 ## Show Facebook Interstitial Ad
-```
+```ActionScript
 import ru.flashpress.fban.FPAudienceNetwork;
 import ru.flashpress.fban.FPInterstitialAd;
 
